@@ -1,0 +1,25 @@
+#!/bin/bash
+sudo su
+yum update -y
+yum install httpd -y
+cd /var/www/html
+echo "Webserver" > index.html
+ls
+pwd
+service httpd start
+chkconfig httpd on
+cat index.html
+
+
+
+
+
+today is monday and a lazy day
+
+i want an ice cream
+
+
+
+
+
+
